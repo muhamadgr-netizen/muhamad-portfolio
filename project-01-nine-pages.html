@@ -12,64 +12,46 @@
   <style>
     :root{color-scheme:dark;--bg:#10100f;--panel:#191917;--text:#f2f0e9;--muted:#96958c;--line:#34342f;--accent:#ff6848;--font:"IBM Plex Sans Arabic",sans-serif;--latin:"DM Sans",sans-serif}
     *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--text);font-family:var(--font);line-height:1.7}.wrap{width:min(1000px,calc(100% - 40px));margin:auto}.topbar{height:76px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--line)}a{color:inherit}.back{color:var(--text);text-decoration:none;font-size:14px}.back span{color:var(--accent);margin-inline-start:8px}.brand{font-size:13px;color:var(--muted)}.intro{padding:78px 0 48px}.eyebrow{color:var(--accent);font-size:12px;margin:0 0 14px}.intro h1{font-size:clamp(38px,7vw,70px);line-height:1.25;font-weight:500;margin:0 0 16px}.intro p:last-child{color:var(--muted);max-width:640px;margin:0}.gallery{display:grid;gap:22px;padding-bottom:80px}.slide{margin:0;background:var(--panel);border:1px solid var(--line);overflow:hidden}.slide img{width:100%;height:auto;display:block}.slide figcaption{display:flex;gap:8px;align-items:center;justify-content:center;border-top:1px solid var(--line);padding:9px;color:var(--muted);font-size:12px}.slide figcaption b{font:12px var(--latin);color:var(--accent)}.footer{border-top:1px solid var(--line);padding:25px 0 40px;display:flex;justify-content:space-between;gap:20px;color:var(--muted);font-size:12px}.footer a{text-decoration:none}.footer a:hover{color:var(--accent)}@media(max-width:600px){.wrap{width:calc(100% - 28px)}.topbar{height:64px}.intro{padding:52px 0 30px}.gallery{gap:14px}.footer{flex-direction:column}}
-  .brand-section-heading{border-top:1px solid var(--line);padding-top:28px}.brand-section-heading h2{font-size:clamp(27px,4vw,42px);font-weight:500;margin:0 0 8px}.brand-section-heading .eyebrow{margin-bottom:5px}
+  .gallery{gap:8px}.slide{border:0}.slide figcaption{border:0;padding:8px 0;background:var(--bg)}@media(max-width:600px){.gallery{gap:6px}}
   </style>
 </head>
 <body>
   <header class="topbar wrap"><a class="back" href="index.html#work"><span>↙</span> العودة إلى الأعمال</a><span class="brand">محمد عبد العزيز محمد</span></header>
   <main class="wrap">
     <section class="intro"><p class="eyebrow">هوية بصرية · 32 صورة</p><h1>الشعارات والهويات البصرية</h1><p>مجموعة من تصاميم الشعارات واستكشافات الهوية البصرية.</p></section>
-    <section class="gallery" aria-label="صفحات المشروع">
-      <figure class="slide" id="slide-01"><img src="a.JPG" alt="صفحة 1 من المشروع" loading="lazy"><figcaption><span>صفحة</span><b>01</b><span>/ 13</span></figcaption></figure>
-      <figure class="slide" id="slide-02"><img src="b.JPG" alt="صفحة 2 من المشروع" loading="lazy"><figcaption><span>صفحة</span><b>02</b><span>/ 13</span></figcaption></figure>
-      <figure class="slide" id="slide-03"><img src="c.JPG" alt="صفحة 3 من المشروع" loading="lazy"><figcaption><span>صفحة</span><b>03</b><span>/ 13</span></figcaption></figure>
-      <figure class="slide" id="slide-04"><img src="d.JPG" alt="صفحة 4 من المشروع" loading="lazy"><figcaption><span>صفحة</span><b>04</b><span>/ 13</span></figcaption></figure>
-      <figure class="slide" id="slide-05"><img src="e.JPG" alt="صفحة 5 من المشروع" loading="lazy"><figcaption><span>صفحة</span><b>05</b><span>/ 13</span></figcaption></figure>
-      <figure class="slide" id="slide-06"><img src="f.JPG" alt="صفحة 6 من المشروع" loading="lazy"><figcaption><span>صفحة</span><b>06</b><span>/ 13</span></figcaption></figure>
-      <figure class="slide" id="slide-07"><img src="g.JPG" alt="صفحة 7 من المشروع" loading="lazy"><figcaption><span>صفحة</span><b>07</b><span>/ 13</span></figcaption></figure>
-      <figure class="slide" id="slide-08"><img src="h.JPG" alt="Project page 8 of 13" loading="lazy"><figcaption><span>صفحة</span><b>08</b><span>/ 13</span></figcaption></figure>
-      <figure class="slide" id="slide-09"><img src="i.JPG" alt="Project page 9 of 13" loading="lazy"><figcaption><span>صفحة</span><b>09</b><span>/ 13</span></figcaption></figure>
-      <figure class="slide" id="slide-10"><img src="identity-10.jpg" alt="شعارات هوشان وصوت ومختبر الشامل وسلالة" loading="lazy"><figcaption><span>صفحة</span><b>10</b><span>/ 13</span></figcaption></figure>
-      <figure class="slide" id="slide-11"><img src="identity-11.jpg" alt="شعارات VOW وترابط وCamel Walk وOris مع مراحل بناء رمز ترابط" loading="lazy"><figcaption><span>صفحة</span><b>11</b><span>/ 13</span></figcaption></figure>
-      <figure class="slide" id="slide-12"><img src="identity-12.jpg" alt="ثلاثة مقترحات لشعار OPPI" loading="lazy"><figcaption><span>صفحة</span><b>12</b><span>/ 13</span></figcaption></figure>
-      <figure class="slide" id="slide-13"><img src="identity-13.jpg" alt="ثلاث نسخ لشعار Baroun Home Center" loading="lazy"><figcaption><span>صفحة</span><b>13</b><span>/ 13</span></figcaption></figure>
-    </section>
-    <section class="gallery" aria-labelledby="hoshan-heading">
-      <div class="brand-section-heading"><p class="eyebrow">دراسة هوية بصرية · 4 صفحات</p><h2 id="hoshan-heading"><bdi>Hoshan Group</bdi></h2></div>
-      <figure class="slide"><img src="identity-hoshan-01.jpg" alt="Hoshan Group — Brand refresh" width="1536" height="864" loading="lazy"><figcaption><bdi lang="en">Brand refresh</bdi></figcaption></figure>
-      <figure class="slide"><img src="identity-hoshan-02.jpg" alt="Hoshan Group — Logo concept" width="1536" height="864" loading="lazy"><figcaption><bdi lang="en">Logo concept</bdi></figcaption></figure>
-      <figure class="slide"><img src="identity-hoshan-03.jpg" alt="Hoshan Group — Brand guidelines" width="1536" height="864" loading="lazy"><figcaption><bdi lang="en">Brand guidelines</bdi></figcaption></figure>
-      <figure class="slide"><img src="identity-hoshan-04.jpg" alt="Hoshan Group — Brand applications" width="1536" height="864" loading="lazy"><figcaption><bdi lang="en">Brand applications</bdi></figcaption></figure>
-    </section>
-    <section class="gallery" aria-labelledby="sout-heading">
-      <div class="brand-section-heading"><p class="eyebrow">دراسة هوية بصرية · 4 صفحات</p><h2 id="sout-heading"><bdi>SOUT</bdi></h2></div>
-      <figure class="slide"><img src="identity-sout-01.jpg" alt="SOUT — Brand refresh" width="1536" height="864" loading="lazy"><figcaption><bdi lang="en">Brand refresh</bdi></figcaption></figure>
-      <figure class="slide"><img src="identity-sout-02.jpg" alt="SOUT — Logo concept" width="1536" height="864" loading="lazy"><figcaption><bdi lang="en">Logo concept</bdi></figcaption></figure>
-      <figure class="slide"><img src="identity-sout-03.jpg" alt="SOUT — Brand guidelines" width="1536" height="864" loading="lazy"><figcaption><bdi lang="en">Brand guidelines</bdi></figcaption></figure>
-      <figure class="slide"><img src="identity-sout-04.jpg" alt="SOUT — Brand applications" width="1536" height="864" loading="lazy"><figcaption><bdi lang="en">Brand applications</bdi></figcaption></figure>
-    </section>
-    <section class="gallery" aria-labelledby="alshamel-heading">
-      <div class="brand-section-heading"><p class="eyebrow">دراسة هوية بصرية · 2 صفحتان</p><h2 id="alshamel-heading"><bdi>مختبر الشامل الطبي — ALSHAMEL LAB</bdi></h2></div>
-      <figure class="slide"><img src="identity-alshamel-02.jpg" alt="مختبر الشامل الطبي — ALSHAMEL LAB — The science of clarity" width="1536" height="864" loading="lazy"><figcaption><bdi lang="en">The science of clarity</bdi></figcaption></figure>
-      <figure class="slide"><img src="identity-alshamel-03.jpg" alt="مختبر الشامل الطبي — ALSHAMEL LAB — Visual language" width="1536" height="864" loading="lazy"><figcaption><bdi lang="en">Visual language</bdi></figcaption></figure>
-    </section>
-    <section class="gallery" aria-labelledby="sulala-heading">
-      <div class="brand-section-heading"><p class="eyebrow">دراسة هوية بصرية · 3 صفحات</p><h2 id="sulala-heading"><bdi>سلالة — SULALA</bdi></h2></div>
-      <figure class="slide"><img src="identity-sulala-02.jpg" alt="سلالة — SULALA — From nature to identity" width="1536" height="864" loading="lazy"><figcaption><bdi lang="en">From nature to identity</bdi></figcaption></figure>
-      <figure class="slide"><img src="identity-sulala-03.jpg" alt="سلالة — SULALA — The visual system" width="1536" height="864" loading="lazy"><figcaption><bdi lang="en">The visual system</bdi></figcaption></figure>
-      <figure class="slide"><img src="identity-sulala-06.jpg" alt="سلالة — SULALA — From sketch to symbol" width="1536" height="864" loading="lazy"><figcaption><bdi lang="en">From sketch to symbol</bdi></figcaption></figure>
-    </section>
-    <section class="gallery" aria-labelledby="vow-heading">
-      <div class="brand-section-heading"><p class="eyebrow">دراسة هوية بصرية · 3 صفحات</p><h2 id="vow-heading"><bdi>VOW Production</bdi></h2></div>
-      <figure class="slide"><img src="identity-vow-02.jpg" alt="VOW Production — Logo concept" width="1536" height="864" loading="lazy"><figcaption><bdi lang="en">Logo concept</bdi></figcaption></figure>
-      <figure class="slide"><img src="identity-vow-03.jpg" alt="VOW Production — Brand guidelines" width="1536" height="864" loading="lazy"><figcaption><bdi lang="en">Brand guidelines</bdi></figcaption></figure>
-      <figure class="slide"><img src="identity-vow-04.jpg" alt="VOW Production — Brand applications" width="1536" height="864" loading="lazy"><figcaption><bdi lang="en">Brand applications</bdi></figcaption></figure>
-    </section>
-    <section class="gallery" aria-labelledby="tarabot-heading">
-      <div class="brand-section-heading"><p class="eyebrow">دراسة هوية بصرية · 3 صفحات</p><h2 id="tarabot-heading"><bdi>TARABOT</bdi></h2></div>
-      <figure class="slide"><img src="identity-tarabot-01.jpg" alt="TARABOT — Brand identity" width="1536" height="864" loading="lazy"><figcaption><bdi lang="en">Brand identity</bdi></figcaption></figure>
-      <figure class="slide"><img src="identity-tarabot-03.jpg" alt="TARABOT — Visual system" width="1536" height="864" loading="lazy"><figcaption><bdi lang="en">Visual system</bdi></figcaption></figure>
-      <figure class="slide"><img src="identity-tarabot-04.jpg" alt="TARABOT — Brand applications" width="1536" height="864" loading="lazy"><figcaption><bdi lang="en">Brand applications</bdi></figcaption></figure>
+    <section class="gallery" aria-label="صفحات المشروع من 1 إلى 32">
+      <figure class="slide" id="slide-01"><img src="a.JPG" alt="صفحة 1 من المشروع" loading="lazy"><figcaption><span>صفحة</span><b>01</b><span>/ 32</span></figcaption></figure>
+      <figure class="slide" id="slide-02"><img src="b.JPG" alt="صفحة 2 من المشروع" loading="lazy"><figcaption><span>صفحة</span><b>02</b><span>/ 32</span></figcaption></figure>
+      <figure class="slide" id="slide-03"><img src="c.JPG" alt="صفحة 3 من المشروع" loading="lazy"><figcaption><span>صفحة</span><b>03</b><span>/ 32</span></figcaption></figure>
+      <figure class="slide" id="slide-04"><img src="d.JPG" alt="صفحة 4 من المشروع" loading="lazy"><figcaption><span>صفحة</span><b>04</b><span>/ 32</span></figcaption></figure>
+      <figure class="slide" id="slide-05"><img src="e.JPG" alt="صفحة 5 من المشروع" loading="lazy"><figcaption><span>صفحة</span><b>05</b><span>/ 32</span></figcaption></figure>
+      <figure class="slide" id="slide-06"><img src="f.JPG" alt="صفحة 6 من المشروع" loading="lazy"><figcaption><span>صفحة</span><b>06</b><span>/ 32</span></figcaption></figure>
+      <figure class="slide" id="slide-07"><img src="g.JPG" alt="صفحة 7 من المشروع" loading="lazy"><figcaption><span>صفحة</span><b>07</b><span>/ 32</span></figcaption></figure>
+      <figure class="slide" id="slide-08"><img src="h.JPG" alt="صفحة 8 من المشروع" loading="lazy"><figcaption><span>صفحة</span><b>08</b><span>/ 32</span></figcaption></figure>
+      <figure class="slide" id="slide-09"><img src="i.JPG" alt="صفحة 9 من المشروع" loading="lazy"><figcaption><span>صفحة</span><b>09</b><span>/ 32</span></figcaption></figure>
+      <figure class="slide" id="slide-10"><img src="identity-10.jpg" alt="شعارات هوشان وصوت ومختبر الشامل وسلالة" loading="lazy"><figcaption><span>صفحة</span><b>10</b><span>/ 32</span></figcaption></figure>
+      <figure class="slide" id="slide-11"><img src="identity-11.jpg" alt="شعارات VOW وترابط وCamel Walk وOris مع مراحل بناء رمز ترابط" loading="lazy"><figcaption><span>صفحة</span><b>11</b><span>/ 32</span></figcaption></figure>
+      <figure class="slide" id="slide-12"><img src="identity-12.jpg" alt="ثلاثة مقترحات لشعار OPPI" loading="lazy"><figcaption><span>صفحة</span><b>12</b><span>/ 32</span></figcaption></figure>
+      <figure class="slide" id="slide-13"><img src="identity-13.jpg" alt="ثلاث نسخ لشعار Baroun Home Center" loading="lazy"><figcaption><span>صفحة</span><b>13</b><span>/ 32</span></figcaption></figure>
+      <figure class="slide" id="slide-14"><img src="identity-hoshan-01.jpg" alt="Hoshan Group — Brand refresh" width="1536" height="864" loading="lazy"><figcaption><span>صفحة</span><b>14</b><span>/ 32</span></figcaption></figure>
+      <figure class="slide" id="slide-15"><img src="identity-hoshan-02.jpg" alt="Hoshan Group — Logo concept" width="1536" height="864" loading="lazy"><figcaption><span>صفحة</span><b>15</b><span>/ 32</span></figcaption></figure>
+      <figure class="slide" id="slide-16"><img src="identity-hoshan-03.jpg" alt="Hoshan Group — Brand guidelines" width="1536" height="864" loading="lazy"><figcaption><span>صفحة</span><b>16</b><span>/ 32</span></figcaption></figure>
+      <figure class="slide" id="slide-17"><img src="identity-hoshan-04.jpg" alt="Hoshan Group — Brand applications" width="1536" height="864" loading="lazy"><figcaption><span>صفحة</span><b>17</b><span>/ 32</span></figcaption></figure>
+      <figure class="slide" id="slide-18"><img src="identity-sout-01.jpg" alt="SOUT — Brand refresh" width="1536" height="864" loading="lazy"><figcaption><span>صفحة</span><b>18</b><span>/ 32</span></figcaption></figure>
+      <figure class="slide" id="slide-19"><img src="identity-sout-02.jpg" alt="SOUT — Logo concept" width="1536" height="864" loading="lazy"><figcaption><span>صفحة</span><b>19</b><span>/ 32</span></figcaption></figure>
+      <figure class="slide" id="slide-20"><img src="identity-sout-03.jpg" alt="SOUT — Brand guidelines" width="1536" height="864" loading="lazy"><figcaption><span>صفحة</span><b>20</b><span>/ 32</span></figcaption></figure>
+      <figure class="slide" id="slide-21"><img src="identity-sout-04.jpg" alt="SOUT — Brand applications" width="1536" height="864" loading="lazy"><figcaption><span>صفحة</span><b>21</b><span>/ 32</span></figcaption></figure>
+      <figure class="slide" id="slide-22"><img src="identity-alshamel-02.jpg" alt="مختبر الشامل الطبي — ALSHAMEL LAB — The science of clarity" width="1536" height="864" loading="lazy"><figcaption><span>صفحة</span><b>22</b><span>/ 32</span></figcaption></figure>
+      <figure class="slide" id="slide-23"><img src="identity-alshamel-03.jpg" alt="مختبر الشامل الطبي — ALSHAMEL LAB — Visual language" width="1536" height="864" loading="lazy"><figcaption><span>صفحة</span><b>23</b><span>/ 32</span></figcaption></figure>
+      <figure class="slide" id="slide-24"><img src="identity-sulala-02.jpg" alt="سلالة — SULALA — From nature to identity" width="1536" height="864" loading="lazy"><figcaption><span>صفحة</span><b>24</b><span>/ 32</span></figcaption></figure>
+      <figure class="slide" id="slide-25"><img src="identity-sulala-03.jpg" alt="سلالة — SULALA — The visual system" width="1536" height="864" loading="lazy"><figcaption><span>صفحة</span><b>25</b><span>/ 32</span></figcaption></figure>
+      <figure class="slide" id="slide-26"><img src="identity-sulala-06.jpg" alt="سلالة — SULALA — From sketch to symbol" width="1536" height="864" loading="lazy"><figcaption><span>صفحة</span><b>26</b><span>/ 32</span></figcaption></figure>
+      <figure class="slide" id="slide-27"><img src="identity-vow-02.jpg" alt="VOW Production — Logo concept" width="1536" height="864" loading="lazy"><figcaption><span>صفحة</span><b>27</b><span>/ 32</span></figcaption></figure>
+      <figure class="slide" id="slide-28"><img src="identity-vow-03.jpg" alt="VOW Production — Brand guidelines" width="1536" height="864" loading="lazy"><figcaption><span>صفحة</span><b>28</b><span>/ 32</span></figcaption></figure>
+      <figure class="slide" id="slide-29"><img src="identity-vow-04.jpg" alt="VOW Production — Brand applications" width="1536" height="864" loading="lazy"><figcaption><span>صفحة</span><b>29</b><span>/ 32</span></figcaption></figure>
+      <figure class="slide" id="slide-30"><img src="identity-tarabot-01.jpg" alt="TARABOT — Brand identity" width="1536" height="864" loading="lazy"><figcaption><span>صفحة</span><b>30</b><span>/ 32</span></figcaption></figure>
+      <figure class="slide" id="slide-31"><img src="identity-tarabot-03.jpg" alt="TARABOT — Visual system" width="1536" height="864" loading="lazy"><figcaption><span>صفحة</span><b>31</b><span>/ 32</span></figcaption></figure>
+      <figure class="slide" id="slide-32"><img src="identity-tarabot-04.jpg" alt="TARABOT — Brand applications" width="1536" height="864" loading="lazy"><figcaption><span>صفحة</span><b>32</b><span>/ 32</span></figcaption></figure>
     </section>
   </main>
   <footer class="footer wrap"><span>© 2026 محمد عبد العزيز محمد</span><a href="index.html#work">العودة إلى معرض الأعمال ↑</a></footer>
